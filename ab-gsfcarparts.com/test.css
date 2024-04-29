@@ -1,0 +1,146 @@
+.why-choose-GSF-car-parts-parent {
+  background-color: #ececec;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.why-choose-GSF-car-parts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ececec;
+  padding: 30px 0px;
+  gap: 1px;
+}
+.icon-with-heading-area {
+  color: #1d3a57;
+}
+.why-choose-GSF-car-parts .section-header p {
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.28px;
+  text-align: left;
+  color: #1d3b55;
+}
+
+.why-choose-card-area {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.why-choose-card-area .why-choose-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #64b03d;
+  border-radius: 5px;
+  background-color: #fcfffa;
+  padding: 20px 20px;
+}
+.icon-with-heading-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+span.card-icon {
+  font-size: 22px;
+}
+div:nth-child(4) > div.icon-with-heading-area > span.card-icon {
+  font-size: 16px;
+}
+.icon-with-heading-area .card-header h5 {
+  font-family: "Nunito Sans";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20.46px;
+  text-align: left;
+}
+.why-choose-card .card-info {
+  margin-top: -8px;
+}
+.why-choose-card .card-info p {
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.1px;
+  text-align: center;
+}
+.icon-with-heading-area .card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 1180px) {
+  .icon-with-heading-area {
+    flex-direction: column;
+  }
+  .icon-with-heading-area .card-header {
+    margin-top: -30px;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .why-choose-card-area {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border: 2px solid #64b03d;
+    border-radius: 5px;
+    background-color: #fcfffa;
+    padding: 15px 15px;
+    margin: 15px 15px;
+  }
+  .why-choose-card-area .why-choose-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: none;
+    padding: 0px 0px;
+  }
+  .icon-with-heading-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+  }
+  .icon-with-heading-area .card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-with-heading-area .card-header {
+    margin-top: 1px;
+  }
+  .icon-with-heading-area .card-header h5 {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.1px;
+    text-align: left;
+  }
+  .why-choose-card .card-info {
+    margin-top: -8px;
+    padding-left: 38px;
+  }
+  .why-choose-card .card-info p {
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.37px;
+    text-align: left;
+    color: #333333;
+  }
+  .card-icon .fa-star,
+  .card-icon .fa-regular.fa-star-half-stroke {
+    display: none;
+  }
+  .card-icon .fa-star:first-child {
+    display: block;
+  }
+}
