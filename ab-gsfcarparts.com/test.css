@@ -25,6 +25,9 @@
   text-align: left;
   color: #1d3b55;
 }
+.why-choose-GSF-car-parts-parent {
+  padding: 0px 15px;
+}
 
 .why-choose-card-area {
   display: grid;
@@ -39,7 +42,7 @@
   border: 2px solid #64b03d;
   border-radius: 5px;
   background-color: #fcfffa;
-  padding: 20px 20px;
+  padding: 5px 20px;
 }
 .icon-with-heading-area {
   display: flex;
@@ -94,6 +97,7 @@ div:nth-child(4) > div.icon-with-heading-area > span.card-icon {
     background-color: #fcfffa;
     padding: 15px 15px;
     margin: 15px 15px;
+    width: 95%;
   }
   .why-choose-card-area .why-choose-card {
     display: flex;
@@ -142,5 +146,243 @@ div:nth-child(4) > div.icon-with-heading-area > span.card-icon {
   }
   .card-icon .fa-star:first-child {
     display: block;
+  }
+}
+.why-choose-GSF-car-parts-parent.home-page {
+  background-color: #fff;
+}
+.why-choose-GSF-car-parts-parent.home-page .container {
+  max-width: 1490px;
+}
+.why-choose-GSF-car-parts-parent.home-page .why-choose-GSF-car-parts {
+  background-color: #fff;
+}
+.why-choose-GSF-car-parts-parent.home-page .why-choose-GSF-car-parts {
+  display: grid;
+}
+
+.why-choose-GSF-car-parts-parent.home-page .section-header {
+  justify-self: flex-start;
+  padding-bottom: 12px;
+}
+.why-choose-GSF-car-parts-parent.home-page .why-choose-card-area {
+  padding-bottom: 30px;
+}
+.why-choose-GSF-car-parts-parent.home-page .why-choose-paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.why-choose-GSF-car-parts-parent.home-page .why-choose-paragraph p {
+  font-size: 15px;
+}
+
+.why-choose-GSF-car-parts-parent.home-page
+  .how-ordering-with-GSF-car-parts-works-area {
+  /* aaaaaaaaaa */
+  display: none;
+}
+.why-choose-GSF-car-parts-parent.home-page .home-paragraph-area {
+  display: block;
+}
+@media only screen and (max-width: 1070px) {
+  .why-choose-GSF-car-parts-parent.home-page .why-choose-card-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .why-choose-GSF-car-parts-parent.home-page .why-choose-card-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: none;
+    background-color: #fcfffa;
+    padding: 15px 15px;
+    margin: 15px 15px;
+  }
+  .why-choose-GSF-car-parts-parent.home-page
+    .why-choose-card-area
+    .why-choose-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: none;
+    padding: 10px 10px;
+    border: 1px solid #64b03d;
+    border-radius: 5px;
+  }
+  .why-choose-GSF-car-parts-parent.home-page
+    .why-choose-card-area
+    .why-choose-card
+    .icon-with-heading-area
+    i {
+    font-size: 17px;
+  }
+  .why-choose-GSF-car-parts-parent.home-page .why-choose-card .card-header h5 {
+    font-size: 17px;
+  }
+  .why-choose-GSF-car-parts-parent.home-page .why-choose-card .card-info {
+    margin-top: -10px;
+  }
+  .why-choose-GSF-car-parts-parent.home-page .why-choose-card .card-info p {
+    font-size: 16px;
+  }
+  .card-icon .fa-star,
+  .card-icon .fa-regular.fa-star-half-stroke {
+    display: none;
+  }
+  .card-icon .fa-star:first-child {
+    display: block;
+  }
+  .why-choose-GSF-car-parts-parent.home-page .home-paragraph-area {
+    display: none;
+  }
+  /* 860 */
+  /* 860 */
+  /* 860 */
+  /* 860 */
+  /* 860 */
+  /* 860 */
+  /* 860 */
+  /* 860 */
+
+  /* How ordering with GSF Car Parts works */
+
+  .bold-text {
+    font-weight: bold;
+  }
+  .underline-text {
+    text-decoration: underline;
+  }
+  .why-choose-GSF-car-parts-parent.home-page
+    .how-ordering-with-GSF-car-parts-works-area {
+    /* aaaaaaaaaa */
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .why-choose-GSF-car-parts-parent.home-page
+    .how-ordering-with-GSF-car-parts-works-area
+    .process-area-header
+    h5 {
+    font-size: 18px;
+    color: #1d3a57;
+    font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .why-choose-GSF-car-parts-parent.home-page
+    .how-ordering-with-GSF-car-parts-works-area
+    .process-step-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .why-choose-GSF-car-parts-parent.home-page
+    .how-ordering-with-GSF-car-parts-works-area
+    .process-step-area
+    .process-step {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #64b03d;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .why-choose-GSF-car-parts-parent.home-page
+    .how-ordering-with-GSF-car-parts-works-area
+    .process-step-area
+    .process-step
+    .step-header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .why-choose-GSF-car-parts-parent.home-page
+    .how-ordering-with-GSF-car-parts-works-area
+    .process-step-area
+    .process-step
+    .step-header
+    .step-header-icon
+    i {
+    font-size: 20px;
+    color: #1d3a57;
+  }
+  .why-choose-GSF-car-parts-parent.home-page
+    .how-ordering-with-GSF-car-parts-works-area
+    .process-step-area
+    .process-step
+    .step-header
+    .step-header-text
+    h6 {
+    font-size: 17px;
+    color: #1d3a57;
+    font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .why-choose-GSF-car-parts-parent.home-page
+    .how-ordering-with-GSF-car-parts-works-area
+    .process-step-area
+    .process-step
+    .step-info {
+    margin-left: 22px;
+  }
+  .why-choose-GSF-car-parts-parent.home-page
+    .how-ordering-with-GSF-car-parts-works-area
+    .process-step-area
+    .process-step
+    .step-info
+    p {
+    font-size: 16px;
+    color: #1d3a57;
+    font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .why-choose-GSF-car-parts-parent.home-page
+    .how-ordering-with-GSF-car-parts-works-area
+    .process-review-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .why-choose-GSF-car-parts-parent.home-page
+    .how-ordering-with-GSF-car-parts-works-area
+    .process-review-area
+    .review-text {
+    margin-top: 20px;
+  }
+  .why-choose-GSF-car-parts-parent.home-page
+    .how-ordering-with-GSF-car-parts-works-area
+    .process-review-area
+    .review-text
+    p {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .why-choose-GSF-car-parts-parent.home-page
+    .how-ordering-with-GSF-car-parts-works-area
+    .process-review-area
+    .review-star-area
+    i {
+    font-size: 17px;
+    color: #64b03d;
+  }
+  .why-choose-GSF-car-parts-parent.home-page
+    .how-ordering-with-GSF-car-parts-works-area
+    .process-review-area
+    .review-rating-area
+    p {
+    font-size: 17px;
+    color: #1d3a57;
+    font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+}
+@media only screen and (max-width: 700px) {
+  /* Why choose GSF car parts 1 grid column */
+  .why-choose-GSF-car-parts-parent.home-page .why-choose-card-area {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
   }
 }
